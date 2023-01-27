@@ -1,0 +1,20 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(28, 28, 60);
+    height: 200px;
+}
+
+.header {
+    color: white;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+.links {
+    display: flex;
+    padding-right: 60px;
+    padding-top: 15px;
+    gap: 20px;
+    color: whitesmoke;
+}
