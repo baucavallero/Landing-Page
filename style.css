@@ -4,6 +4,7 @@ html {
 
 body {
     margin: 0;
+    font-family: sans-serif;
 }
 
 h1 {
@@ -56,7 +57,7 @@ h2 {
 .subheader {
     color: white;
     background-color: #1f2937;
-    height: 300px;
+    height: 250px;
     display: flex;
     justify-content: space-evenly;
     gap: 40px;
@@ -92,3 +93,34 @@ button {
 .subtitle {
     color: rgb(185, 185, 185);
 }
+
+.middle-section {
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.title2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    font-style: light italic;
+    color: #1f2937;
+}
+
+.mountain, .mountain-forest, .rocky-river, .woods {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #3882f6;
+    border-radius: 8px;
+}
+
