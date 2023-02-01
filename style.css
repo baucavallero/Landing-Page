@@ -28,11 +28,10 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: grey;
-    height: 200px;
-    padding-right: 60px;
-    padding-left: 60px;
     width: 400px;
+    height: 200px;
+    border: #3882f6 solid;
+    border-radius: 7px;
 }
 
 .title {
@@ -40,15 +39,16 @@ h2 {
 }
 
 .header {
-    color: white;
-    padding-left: 233px;
+    padding-left: 126px;
     padding-top: 15px;
+    width: 40px;
+    height: 40px;
 }
 
 .links {
     display: flex;
     font-size: 12px;
-    padding-right: 172px;
+    padding-right: 183px;
     padding-top: 15px;
     gap: 20px;
     color: rgb(185, 185, 185);
@@ -60,7 +60,7 @@ h2 {
     height: 250px;
     display: flex;
     justify-content: space-evenly;
-    gap: 40px;
+    gap: 80px;
 }
 
 .alltext {
@@ -83,6 +83,8 @@ button {
     text-align: center;
     font-size: 12px;
     font-weight: bold;
+    border-radius: 6px;
+    border: white solid 2px;
 }
 
 .signup1 {
@@ -139,3 +141,42 @@ button {
     width: 550px;
 }
 
+.prefooter {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    height: 100px;
+    gap: 120px;
+    width: 600px;
+    margin-left: 400px;
+    margin-right: 410px;
+    border: #3882f6 solid;
+    border-radius: 6px;
+    margin-bottom: 80px;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10px;
+    color: white;
+}
+
+.signup2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    font-size: 9px;
+    height: 50px;
+}
